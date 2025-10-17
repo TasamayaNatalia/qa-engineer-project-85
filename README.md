@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/TasamayaNatalia/qa-engineer-project-85/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/TasamayaNatalia/qa-engineer-project-85/actions)
 
-# Тестированиев продакшн
+# Тестирование в продакшн
 Этот проект посвящен тестированию игры с открытым исходным кодом, в которой два программиста одновременно выполняют одну задачу на разных языках программирования. Кто выполнил быстрее, тот побеждает.
 
 Тестируемый проект: https://codebattle.hexlet.io/
