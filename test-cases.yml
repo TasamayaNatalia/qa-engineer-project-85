@@ -679,7 +679,7 @@
   test-data: |
     Тестовые данные
     Размер экрана = 320 х 480
-      steps:
+  steps:
     - Нажимаем кнопку «Sign in»
     - Вводим почту пользователя  «NAta-786_@yandex.ru»  в окно «Email»
     - Вводим пароль «956yuD23!» в окно «Password»
@@ -710,7 +710,7 @@
   test-data: |
     Тестовые данные
     браузер = Google Chrome
-      steps:
+  steps:
     - Нажимаем кнопку «Sign in»
     - Вводим почту пользователя  «NAta-786_@yandex.ru»  в окно «Email»
     - Вводим пароль «956yuD23!» в окно «Password»
@@ -741,7 +741,7 @@
   test-data: |
     Тестовые данные
     браузер = Mozilla Firefox
-      steps:
+  steps:
     - Нажимаем кнопку «Sign in»
     - Вводим почту пользователя  «NAta-786_@yandex.ru»  в окно «Email»
     - Вводим пароль «956yuD23!» в окно «Password»
