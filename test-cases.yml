@@ -534,14 +534,20 @@
   requirement: |
     Пользователь должен иметь возможность видеть, кто является победителем игры после ее завершения
   prerequisites: |
-    создана игра с ботом, продолжительностью 3 минуты
+    создана игра "rect_area" с ботом на языке NodeJS
   test-data: |
     Тестовые данные
-    Продолжительность игры = 3 min
+    Код = "const _ = require("lodash");
+    const R = require("rambda");
+    const solution = (width, length) => {
+    return width * length;
+    };
+    module.exports = solution;"
   steps:
-    - Ждем 3 минуты
+    - Вводим код в редакторе кода
+    - Нажимаем кнопку проверки своего решения «Run»
   expected-result: |
-    После завершения игры в модальном окне появляется сообщение с результатами игры «Time is up. There are no winners in the game» или «Your opponent has won the game»
+    После завершения игры в модальном окне появляется сообщение с результатами игры "Woohoo, you're Champion!!!!!"
 
 - summary: |
     Проверка наличия возможности перехода в чат
