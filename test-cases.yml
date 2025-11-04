@@ -483,11 +483,18 @@
   requirement: |
     Пользователь должен иметь возможность проверить свое решение задачи 
   prerequisites: |
-    создана игра с ботом
+    создана игра "rect_area" с ботом на языке NodeJS
   test-data: |
     Тестовые данные
+    Код = "const _ = require("lodash");
+    const R = require("rambda");
+    const solution = (width, length) => {
+    return width * length;
+    };
+    module.exports = solution;"
     Кнопка проверки решения = «Run»
   steps:
+    - Вводим код в редакторе кода
     - Нажимаем кнопку проверки своего решения «Run»
   expected-result: |
     Пользователь видит вывод автоматических тестов
